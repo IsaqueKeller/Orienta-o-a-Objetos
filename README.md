@@ -1,2 +1,2 @@
-# Orienta-o-a-Objetos
+# Orientação-a-Objetos
 Disciplina de orientação a objetos 
