@@ -77,7 +77,7 @@ public class Musica {
     public double getDuracao () {
         return duracao;
     }
-    public setDuracao (double duracao) {
+    public void setDuracao (double duracao) {
         this.duracao = duracao;
     }
     public double getPreco () {
