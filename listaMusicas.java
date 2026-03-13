@@ -57,9 +57,13 @@ public class Listamusicas {
             else if (option == 4) {
                 System.out.println("Informe o autor: ");
                 String author = reader.nextLine();
+                
                 for (int i = 0; i <= listaMusicas.size() - 1; i++) {
                     Musica mi = listaMusicas.get(i);
-                    if (author.equal())
+                    if (author.equal(mi.getAutor()) {
+                        System.out.println("Autor encontrado");
+                        mi.imprimir();
+                    }    
                 }
                 
             }
