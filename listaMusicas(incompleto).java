@@ -2,6 +2,7 @@ package com.mycompany.listamusicas;
 import java.util.List;
 import java.util.ArrayList;
 import java.util.Scanner;
+import com.mycompany.Musica;
 
 public class Listamusicas {
 
@@ -31,7 +32,7 @@ public class Listamusicas {
                 listaMusicas.add(m1);
             }
             else if (option == 2) {
-                System.out.println("digite o titulo ");
+                System.out.println("digite o titulo: ");
                 String title = reader.nextLine();
                 for (int i = 0; i < listaMusicas.size() - 1; i++) {
                     Musica mi = listaMusicas.get(i);
@@ -52,6 +53,15 @@ public class Listamusicas {
                         mi.imprimir();
                     }
                 }
+            }
+            else if (option == 4) {
+                System.out.println("Informe o autor: ");
+                String author = reader.nextLine();
+                for (int i = 0; i <= listaMusicas.size() - 1; i++) {
+                    Musica mi = listaMusicas.get(i);
+                    if (author.equal())
+                }
+                
             }
         } while (option != 0);
         
