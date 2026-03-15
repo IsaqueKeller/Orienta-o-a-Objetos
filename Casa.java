@@ -1,4 +1,4 @@
-package com.mycompany.exercicio10;
+package com.mycompany.exerciciooo;
 
 import java.util.Scanner;
 
@@ -50,8 +50,17 @@ public class Casa {
         System.out.println("Rooms: " + this.rooms);
         System.out.println("Price: " + this.price);
     }
+    
+    public double calcularPrecoPorM2(double price , double area) {
+        return this.price/this.area;
+    }
+    
+    public void exibirResumo (Casa c1) {
+        printInfo();
+    }
+    
     //getters and setters
-    public String getAdress() {
+    public String getAdress(){
         return adress;
     }
     
@@ -79,7 +88,7 @@ public class Casa {
         return price;
     }
     
-    public void setPrice (){
+    public void setPrice (double price){
         price = this.price;
     }
 }
