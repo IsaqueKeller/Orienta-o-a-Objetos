@@ -1,3 +1,4 @@
+package com.mycompany.exerciciooo;
 import java.util.Scanner;
 
 class Ativo {
