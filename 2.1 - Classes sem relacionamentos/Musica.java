@@ -1,4 +1,4 @@
-package com.mycompany.ex8musica;
+package com.mycompany.exerciciooo;
 
 import java.util.Scanner;
 
