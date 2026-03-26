@@ -1,4 +1,4 @@
-package com.mycompany.movie;
+package com.mycompany.exerciciooo;
 
 import java.util.Scanner;
 
