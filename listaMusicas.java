@@ -11,10 +11,10 @@ public class Listamusicas {
         Scanner reader = new reader(System.in);
         
         System.out.println("Escolha uma opcao: ");
-        System.out.println("1 - Adicionar um livro: ");
-        System.out.println("2 - Remover um livro: ");
-        System.out.println("3 - Pesquisar um livro (titulo): ");
-        System.out.println("4 - Pesquisar um livro (autor): ");
+        System.out.println("1 - Adicionar uma musica: ");
+        System.out.println("2 - Remover uma musica: ");
+        System.out.println("3 - Pesquisar uma musica (titulo): ");
+        System.out.println("4 - Pesquisar uma musica (autor): ");
         System.out.println("0 - Sair");
         System.out.println("Escolha uma opcao: ");
         return option = reader.nextInt();
