@@ -17,6 +17,11 @@ public class Roda {
         this.color = color;
     }
 
+    @Override
+    public String toString() {
+        return "Roda{" + "radius = " + radius + ", material = " + material + ", color = " + color + '}';
+    }
+    
     public double getRadius() {
         return radius;
     }
