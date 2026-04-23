@@ -3,27 +3,30 @@ package com.mycompany.exerciciooo;
 import java.util.ArrayList;
 import java.util.List;
 
-class Proprietario {
+public class Proprietario {
     private String name;
     private String cpf;
     private String email;
-    private List <Carro> listOfCars;
+    private List<Carro> CarsList;
     
     public Proprietario () {
         name = "";
         cpf = "";
         email = "";
-        listOfCars = new ArrayList <>();
+        CarsList = new ArrayList<>();
     }
     
-   
+    public Proprietario (String name , String cpf , String email) {
+        this.name = name;
+        this.cpf = cpf;
+        this.email = email;
+        this.CarsList = CarsList;
+    }
 
     @Override
     public String toString() {
-        return "Proprietario{" + "name=" + name + ", cpf=" + cpf + ", email=" + email + ", listOfCars=" + listOfCars + '}';
-    }
-
-    
+        return "Proprietario{" + "name=" + name + ", cpf=" + cpf + ", email=" + email + ", CarsList=" + CarsList + '}';
+    }    
     
     public String getName() {
         return name;
@@ -49,12 +52,12 @@ class Proprietario {
         this.email = email;
     }
 
-    public List<Carro> getListOfCars() {
-        return listOfCars;
+    public List getCarsList() {
+        return CarsList;
     }
 
-    public void setListOfCars(List<Carro> listOfCars) {
-        this.listOfCars = listOfCars;
+    public void setCarsList(List CarsList) {
+        this.CarsList = CarsList;
     }
     
     
