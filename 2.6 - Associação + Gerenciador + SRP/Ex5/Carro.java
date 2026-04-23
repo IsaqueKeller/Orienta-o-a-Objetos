@@ -1,5 +1,7 @@
 package com.mycompany.exerciciooo;
+import java.util.ArrayList;
 import java.util.List;
+import java.util.Scanner;
 public class Carro {
     private String model;
     private String fabricator;
@@ -15,7 +17,11 @@ public class Carro {
         WheelsList = new ArrayList <>();
     }
     
-    public Carro (String model , int year , String color , String fabricator) {
+    public static void contadorDeCarros() {
+        System.out.println("This is a static method");
+    }
+    
+    public Carro (String model , String fabricator , int year , String color) {
         this.model = model;
         this.year = year;
         this.color = color;
@@ -23,6 +29,11 @@ public class Carro {
         WheelsList = new ArrayList<>();
     }
 
+    @Override
+    public String toString() {
+        return "Carro{" + "model = " + model + ", fabricator = " + fabricator + ", year = " + year + ", color = " + color + ", WheelsList = " + WheelsList + '}';
+    }
+    
     public String getModel() {
         return model;
     }
@@ -45,5 +56,21 @@ public class Carro {
 
     public void setColor(String color) {
         this.color = color;
+    }
+    
+    public String getFabricator () {
+        return fabricator;
+    }
+    
+    public void setFabricator (String fabricator) {
+        this.fabricator = fabricator;
+    }
+    
+    public List<Roda> getRoda () {
+        return WheelsList;
+    }
+    
+    public void setRoda (List<Roda> WheelsList) {
+        this.WheelsList = WheelsList;
     }
 }
