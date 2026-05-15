@@ -19,6 +19,7 @@ public class GerenciadorProfessor {
             if (professor.getName().equals(name))   
             listOfTeachers.remove(professor);
         }
+        return null;
     }
     
     public Professor searchTeacherByName (String name) {
