@@ -1,4 +1,4 @@
 package com.mycompany.projetoescola.Model.dao;
-public class AlunoDAOBanco {
+public class AlunoDAOBanco implements IDAOAluno {
     
 }

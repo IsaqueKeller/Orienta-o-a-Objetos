@@ -1,11 +1,11 @@
 package com.mycompany.projetoescola.Controller;
-import com.mycompany.projetoescola.Model.IDAO;
-import com.mycompany.projetoescola.Model.Professor;
+import com.mycompany.projetoescola.Model.entities.Professor;
+import com.mycompany.projetoescola.Model.dao.IDAOAluno;
 
 public class professorController {
-    private IDAO repositorio;
+    private IDAOAluno repositorio;
     
-    public professorController (IDAO repositorio) {
+    public professorController (IDAOAluno repositorio) {
         this.repositorio = repositorio;
     }
     
